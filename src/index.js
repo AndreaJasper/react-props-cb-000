@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const madMaxGenres = ['Action', 'Adventure', 'Science Fiction', 'Thriller']
+const genres = ['Action', 'Adventure', 'Science Fiction', 'Thriller']
  
 class MovieCard extends React.Component {
   render() {

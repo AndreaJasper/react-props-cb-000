@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const genres = ['Action', 'Adventure', 'Science Fiction', 'Thriller']
+
+MovieCard.defaultProps = {
+  poster: 'http'
+}
  
 class MovieCard extends React.Component {
   render() {

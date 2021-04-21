@@ -5,7 +5,7 @@ const genres = ['Action', 'Adventure', 'Science Fiction', 'Thriller']
 
 MovieCard.defaultProps = {
   poster: 'http://i.imgur.com/bJw8ndW.png'
-}
+};
  
 class MovieCard extends React.Component {
   render() {
